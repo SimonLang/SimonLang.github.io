@@ -1,146 +1,436 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Top Shelf, INC.</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/styles.css">
-	
-	<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-	<header>
-		<h2><a href="#">Top Shelf Insurance, INC.</a></h2>
-		<nav>
-			<li><h3>Call Us Today</h3></li>
-			<!-- <li><a href="#">Home</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contacts</a></li> -->
-			<a href="tel:+1 1-866-420-8238"><h3>1(866)420-8238</h3></a>
-		</nav>
-	</header>
+    
+<!--Main Navigation-->
+<header>
+
+<!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar">
+    <div class="container">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#intro">
+            <img src="assets/Top Shelf Logo.png" height="30" alt="">
+        </a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+      
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto smooth-scroll">
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link green-text" href="#best-features">Services</a>
+                </li>
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link green-text" href="#examples">About</a>
+                </li>
+                
+                <li class="nav-item font-weight-bold">
+                    <a class="nav-link green-text" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <!-- Links -->
+        
+            <i class="fa fa-phone green-text fa-2x mt-2"></i> <p class="green-text mt-4 ml-2">1-866-420-8238</p>
+                
+        </div>
+        <!-- Collapsible content -->
+
+    </div>
+</nav>
+<!--/.Navbar-->
 
 
-	<section class="hero">
-		<!-- <div class="background-image" style="background-image: url(assets/img/hero.jpg"></div> -->
-		<!-- <h1>Top Shelf</h1> -->
-		<!-- <img class="banner" src="assets/img/beach-beautiful-california-358383.jpg" style="width:100%; height: auto;" alt=""> -->
-		<!-- <div class="header"> -->
-		<img class="logo" src="assets/img/Top Shelf Logo.png" alt="">
-		<h3>For all your risk management needs.</h3>
-		<!-- </div> -->
-		<!-- <a href="http://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox/" class="btn">Download it Here</a> -->
-	</section>
+<!--Mask-->
+<div id="intro" class="view">
+
+    <div class="mask">
+
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+            <div class="row d-flex justify-content-center text-center">
+
+                <div class=" justify-content-center view overlay ">
+                    <img src="../mdbTut2/assets/Top Shelf Logo.png" class="img-fluid" alt="">
+                    <div class="mask rgba-white-slight"></div>
+                </div>
+
+                <div class="col-md-10">
+
+                    <!-- Heading -->
+                    <!-- <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Travel</h2> -->
+                    
+                
+                    <!-- Divider -->
+                    <hr class="hr-light">
+
+                    <!-- Description -->
+                    <h4 class="white-text my-4">Here for all your risk management needs</h4>
+                    <button type="button" class="btn btn-outline-white"><a class="nav-link white-text" href="#contact">Contact</a></button>
+                    
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!--/.Mask-->
+                                
+            
+        
+</header>
+<!--Main Navigation-->
 
 
-	<!-- <section class="our-work">
-		<h3 class="title">Some of our work</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<hr>
+<!--Main layout-->
+<main class="mt-5">
+    <div class="container">
 
-		<ul class="grid">
-			<li class="small" style="background-image: url(assets/img/coast.jpg);"></li>
-			<li class="large" style="background-image: url(assets/img/island.jpg);"></li>
-			<li class="large" style="background-image: url(assets/img/balloon.jpg);"></li>
-			<li class="small" style="background-image: url(assets/img/mountain.jpg);"></li>
-		</div>
-	</section>  -->
-	
+    <!--Section: Best Features-->
+    <section id="best-features" class="text-center">
+        
+            <!-- Heading -->
+            <h2 class="mb-5 font-weight-bold green-text">Services</h2>
+        
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center mb-4">
+        
+                <!--Grid column-->
+                <div class="col-md-8">
+        
+                    <!-- Description -->
+                    
+        
+                </div>
+                <!--Grid column-->
+        
+            </div>
+            <!--Grid row-->
+        
+            <!--Grid row-->
+            <div class="row">
+        
+                <!--Grid column-->
+                <div class="col-md-4 mb-1">
+                    <i class="fa fa-building fa-4x green-text"></i>
+                    <h4 class="my-4 font-weight-bold grey-text">Manufacturing</h4>
+                    <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                        assumenda deleniti hic.</p> -->
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-md-4 mb-1">
+                    <i class="fa fa-truck fa-4x green-text"></i>
+                    <h4 class="my-4 font-weight-bold grey-text">Distribution</h4>
+                    <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                        assumenda deleniti hic.</p> -->
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-md-4 mb-1">
+                    <i class="fa fa-tree fa-4x green-text"></i>
+                    <h4 class="my-4 font-weight-bold grey-text">Cultivators</h4>
+                    <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                        assumenda deleniti hic.</p> -->
+                </div>
+                <!--Grid column-->
+        
+            </div>
+            <!--Grid row-->
+             <!--Grid row-->
+             <div class="row">
+        
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-shopping-cart fa-4x yellow-text"></i>
+                        <h4 class="my-4 font-weight-bold grey-text">Retail</h4>
+                        <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p> -->
+                    </div>
+                    <!--Grid column-->
+            
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-automobile fa-4x yellow-text"></i>
+                        <h4 class="my-4 font-weight-bold grey-text">Auto</h4>
+                        <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p> -->
+                    </div>
+                    <!--Grid column-->
+            
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-home fa-4x yellow-text"></i>
+                        <h4 class="my-4 font-weight-bold grey-text">Property</h4>
+                        <!-- <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p> -->
+                    </div>
+                    <!--Grid column-->
+            
+                </div>
+                <!--Grid row-->
+        
+        </section>
+        <!--Section: Best Features-->
+                                
 
-	<!-- <section class="features">
-		<h3 class="title">Features and services</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<hr>
+        <hr class="my-5">
 
-		<ul class="grid">
-			<li>
-				<i class="fa fa-camera-retro"></i>
-				<h4>Photography</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-			</li>
-			<li>
-				<i class="fa fa-cubes"></i>
-				<h4>Web Development</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-			</li>
-			<li>
-				<i class="fa fa-newspaper-o"></i>
-				<h4>Content Editing</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
-			</li>
-		</div>
-	</section> -->
+<!--Section: Examples-->
+<section id="examples" class="text-center">
+
+    <!-- Heading -->
+    <!-- <h2 class="mb-5 font-weight-bold">About Us</h2> -->
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-9 col-md-8 mb-4">
+
+            <h4 class="my-4 font-weight-bold green-text">About Top Shelf</h4>
+            <h5 class="font-weight-bold grey-text">
+                    Top Shelf is the leader in an everchanging insurance market and is here for all your risk management needs.
+                    <br><br>
+                    What separates Top Shelf from our competitors is our service. With a team of experienced and well connected professionals,
+                     we are able to leverage our industry knowledge to ensure our customers receive the best products and services in the business.</h5>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-4 mb-1">
+
+            <div class="view overlay z-depth-1-half">
+                <img src="../mdbTut2/assets/chuckles-business.jpg" class="img-fluid img-thumbnail" height: "100"; alt="">
+                <div class="mask rgba-white-slight"></div>
+            </div>
+
+            <h4 class="my-4 font-weight-bold green-text">Chuck Hackney</h4>
+            <p class="grey-text">President & CEO Top Shelf Insurance Services, INC. </p>
+
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+</section>
+<!--Section: Examples-->
+                                
+                                
+
+<hr class="my-5">
+    
+
+<!-- Section: Contact v.2 -->
+<section id="contact" class="my-5">
+
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold green-text text-center my-5">Contact Us</h2>
+        <!-- Section description -->
+        <!-- <p class="text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p> -->
+      
+        <!-- Grid row -->
+        <div class="row">
+      
+          <!-- Grid column -->
+          <div class="col-md-9 mb-md-0 mb-5">
+      
+            <form id="contact" action="https://formspree.io/chuckhackney@topshelfgo.com" method="post"></form>
+      
+              <!-- Grid row -->
+              <div class="row">
+      
+                <!-- Grid column -->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="text" id="contact-name" class="form-control green-text" name="name">
+                    <label for="contact-name" class="">Your name</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input type="email" id="contact-email" class="form-control green-text" name="_replyto">
+                    <label for="contact-email" class="">Your email</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+      
+              </div>
+              <!-- Grid row -->
+      
+              <!-- Grid row -->
+              <div class="row">
+      
+                <!-- Grid column -->
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input type="text" id="contact-Subject" class="form-control green-text">
+                    <label for="contact-Subject">Subject</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+      
+              </div>
+              <!-- Grid row -->
+      
+              <!-- Grid row -->
+              <div class="row">
+      
+                <!-- Grid column -->
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea type="text" id="contact-Message" class="form-control green-text md-textarea" rows="3" name="message"></textarea>
+                    <label for="contact-Message">Your message</label>
+                  </div>
+                </div>
+                <!-- Grid column -->
+      
+              </div>
+              <!-- Grid row -->
+      
+            </form>
+      
+            <div class="text-center green-text text-md-left">
+              <a class="btn btn-green btn-md" data-submit="...Sending">Send</a>
+            </div>
+      
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <i class="fa fa-map-marker fa-2x green-text"></i>
+                <p>Los Angeles, CA 90043 , USA</p>
+              </li>
+              <li>
+                <i class="fa fa-phone fa-2x mt-4 green-text"></i>
+                <p>1-866-420-8238</p>
+              </li>
+              <li>
+                <i class="fa fa-envelope fa-2x mt-4 green-text"></i>
+                <p class="mb-0">chuckhackney@topshelfgo.com</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+      
+        </div>
+        <!-- Grid row -->
+      
+      </section>
+      <!-- Section: Contact v.2 -->
+                  
+    
+    </div>
+    <!--Grid row-->
+
+</section>
+<!--Section: Contact-->
+                                
+
+    </div>
+</main>
+<!--Main layout-->
+                                
 
 
-	<section class="about">
-		<h3 class="title">About Us</h3>
-		
-		<p class="quote"><img src="assets/img/chuckles-business.jpg" alt="" width="250" height="350" align="right">
-			What separates Top Shelf from our competitors is our service. With a team of experienced and well connected professionals, we are able to leverage our 
-			industry knowledge to ensure our customers receive the best products and services in the business. 
-			<br> <br>— Charles Hackney <br>President & CEO Top Shelf Insurance, INC.</p>
-		<!-- <p class="author">— Charles Hackney</p> -->
+<!--Footer-->
+<footer class="page-footer font-small green pt-4 mt-4">
 
-		
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-center text-md-left">
+            <div class="row mt-3">
 
-		
-	</section>
+                <!--First column-->
+                <div class="col-md-4 col-lg-4 col-xl-9 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Top Shelf</strong>
+                    </h6>
+                    <hr class="yellow mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Top Shelf is the leader in an everchanging insurance market and is here for all your risk management needs.</p>
+                </div>
+                <!--/.First column-->
 
+                <!--Second column-->
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Contact</strong>
+                    </h6>
+                    <hr class="yellow mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-3"></i> Los Angeles, CA 90043, US</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> chuckhackney@topshelfgo.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i>1-866-420-8238</p>
+                </div>
+                <!--/.Second column-->
 
-	<!-- <section class="contact">
-		<h3 class="title">Join our newsletter</h3>	
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
-		<hr>
+            </div>
+        </div>
+        <!--/.Footer Links-->
+                                
+    
+        <!--Copyright-->
+        <div class="footer-copyright py-3 light-green lighten-5 text-center grey-text">
+            © 2018 Copyright:
+            <a href="https://topshelfgo.com" class="green-text"> Top Shelf Insurance Services, INC. </a>
+        </div>
+        <!--/.Copyright-->
+    
+    </footer>
+    <!--/.Footer-->
+                                
+        
 
-		<form>
-			<input type="email" placeholder="Email">
-			<a href="#" class="btn">Subscribe now</a>
-		</form>
-	</section> -->
-
-	<div class="contact">  
-			<form id="contact" action="https://formspree.io/chuckhackney@topshelfgo.com" method="post">
-			  <h3>Quick Contact</h3>
-			  <h4>Contact us today, and get a reply with in 24 hours!</h4>
-			  <fieldset>
-				<input placeholder="Your name" type="text" tabindex="1" required autofocus name="name">
-			  </fieldset>
-			  <fieldset>
-				<input placeholder="Your Email Address" type="email" tabindex="2" required name="_replyto">
-			  </fieldset>
-			  <fieldset>
-				<input placeholder="Your Phone Number" type="tel" tabindex="3" required name="phone">
-			  </fieldset>
-			  <fieldset>
-				<textarea placeholder="Type your Message Here...." tabindex="5" required name="message"></textarea>
-			  </fieldset>
-			  <fieldset>
-				<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-			  </fieldset>
-			</form>
-	</div>
-
-	<footer>
-		<!-- <ul>
-			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-square""></i></a></li>
-		</ul>
-		<p>Made by <a href="http://tutorialzine.com/" target="_blank">tutorialzine</a>. images courtesy to <a href="http://unsplash.com/" target="_blank">unsplash</a>.</p>
-		<p>No attribution required. you can remove this footer.</p> -->
-	</footer>
-
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+   
+                                  
 </body>
 
 </html>

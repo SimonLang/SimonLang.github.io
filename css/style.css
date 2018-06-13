@@ -1,0 +1,68 @@
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../assets/pine-watt-462535-unsplash.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background-color: #f1f8e9 ;
+}
+.footer-copyright {
+    background-color: #f1f8e9 ;
+}       
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: white;
+    }
+}
+.navbar-brand {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.md-form input[type=text]:focus:not([readonly]) + label {
+    color: green; 
+}
+
+    .md-form input[type=text]:focus:not([readonly]) {
+        border-bottom: 1px solid green;
+        box-shadow: 0 1px 0 0 green; 
+    }
+.md-form input[type=email]:focus:not([readonly]) + label {
+    color: green; 
+}
+
+    .md-form input[type=email]:focus:not([readonly]) {
+        border-bottom: 1px solid green;
+        box-shadow: 0 1px 0 0 green; 
+    }
+.md-form textarea[type=text]:focus:not([readonly]) + label {
+    color: green; 
+}
+
+    .md-form textarea[type=text]:focus:not([readonly]) {
+        border-bottom: 1px solid green;
+        box-shadow: 0 1px 0 0 green; 
+    }
+
+.primary-textarea .md-form label.active {
+    color: green;
+    }
