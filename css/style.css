@@ -8,6 +8,7 @@ header,
 
 #intro {
     background: url("/assets/pine-watt-462535-unsplash.jpg")no-repeat center center fixed;
+    background-color: #f1f8e9
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
