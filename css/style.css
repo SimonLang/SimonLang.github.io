@@ -8,12 +8,13 @@ header,
 
 #intro {
     background: url("../assets/topshelf_Intro_pic.jpg")no-repeat center center fixed;
-    background-color: #f1f8e9
+    background-color: #f1f8e9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 body {
     background-color: #f1f8e9 ;
@@ -24,7 +25,10 @@ body {
 .navbar {
     background-color: transparent;
 }
-
+.navbar.navbar-4 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
+    background-color: green;
+}
 .top-nav-collapse {
     background-color: white;
 }
