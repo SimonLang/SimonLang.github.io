@@ -267,7 +267,7 @@
           <!-- Grid column -->
           <div class="col-md-9 mb-md-0 mb-5">
       
-            <form id="contact" action="https://formspree.io/chuckhackney@topshelfgo.com" method="post"></form>
+            <form action="https://formspree.io/chuckhackney@topshelfgo.com" method="post"></form>
       
               <!-- Grid row -->
               <div class="row">
@@ -276,7 +276,7 @@
                 <div class="col-md-6">
                   <div class="md-form mb-0">
                     <input type="text" id="contact-name" class="form-control green-text" name="name">
-                    <label for="contact-name" class="">Your name</label>
+                    <label for="contact-name">Your name</label>
                   </div>
                 </div>
                 <!-- Grid column -->
@@ -284,8 +284,8 @@
                 <!-- Grid column -->
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input type="email" id="contact-email" class="form-control green-text" name="_replyto">
-                    <label for="contact-email" class="">Your email</label>
+                    <input type="email" id="contact-email" class="form-control green-text" name="email">
+                    <label for="contact-email">Your email</label>
                   </div>
                 </div>
                 <!-- Grid column -->
@@ -299,7 +299,7 @@
                 <!-- Grid column -->
                 <div class="col-md-12">
                   <div class="md-form mb-0">
-                    <input type="text" name="_subject" id="contact-Subject" class="form-control green-text">
+                    <input type="text" id="contact-Subject" class="form-control green-text" name="subject">
                     <label for="contact-Subject">Subject</label>
                   </div>
                 </div>
@@ -323,13 +323,13 @@
               </div>
               <!-- Grid row -->
       
-            </form>
-      
+            
+            <input type="text" name="_gotcha" style="display:none" />
             <div class="text-center green-text text-md-left">
-                    <button type="submit" name="submit" value="Send" data-submit="..Sending" class="btn btn-green btn-md">Send</button>
+                    <button type="submit" name="submit" value="Send" data-submit="..Sending" >Send</button>
               <!-- <a class="btn btn-green btn-md" data-submit="...Sending">Send</a> -->
             </div>
-      
+            </form>
           </div>
           <!-- Grid column -->
       
