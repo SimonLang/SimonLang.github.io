@@ -266,16 +266,17 @@
       
           <!-- Grid column -->
           <div class="col-md-9 mb-md-0 mb-5">
-      
-            <form action="https://formspree.io/chuckhackney@topshelfgo.com" method="post"></form>
-      
+            <!-- <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent. (If form ok!)</strong></div>
+            <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs. (If form error!)</strong></div> -->
+            <form action="https://formspree.io/chuckhackney@topshelfgo.com" method="post">
+                <input type="hidden" name="_subject" value="New submission!" />
               <!-- Grid row -->
               <div class="row">
       
                 <!-- Grid column -->
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input type="text" id="contact-name" class="form-control green-text" name="name">
+                    <input type="text" id="contact-name" class="form-control green-text" name="name" required>
                     <label for="contact-name">Your name</label>
                   </div>
                 </div>
@@ -284,7 +285,7 @@
                 <!-- Grid column -->
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input type="email" id="contact-email" class="form-control green-text" name="email">
+                    <input type="email" id="contact-email" class="form-control green-text" name="_replyto" required>
                     <label for="contact-email">Your email</label>
                   </div>
                 </div>
@@ -299,7 +300,7 @@
                 <!-- Grid column -->
                 <div class="col-md-12">
                   <div class="md-form mb-0">
-                    <input type="text" id="contact-Subject" class="form-control green-text" name="subject">
+                    <input type="text" id="contact-Subject" class="form-control green-text" name="subject" required>
                     <label for="contact-Subject">Subject</label>
                   </div>
                 </div>
@@ -314,7 +315,7 @@
                 <!-- Grid column -->
                 <div class="col-md-12">
                   <div class="md-form">
-                    <textarea type="text" id="contact-Message" class="form-control green-text md-textarea" rows="3" name="message"></textarea>
+                    <textarea type="text" id="contact-Message" class="form-control green-text md-textarea" rows="3" name="message" required></textarea>
                     <label for="contact-Message">Your message</label>
                   </div>
                 </div>
@@ -325,10 +326,7 @@
       
             
             <input type="text" name="_gotcha" style="display:none" />
-            <div class="text-center green-text text-md-left">
-                    <button type="submit" name="submit" value="Send" data-submit="..Sending" >Send</button>
-              <!-- <a class="btn btn-green btn-md" data-submit="...Sending">Send</a> -->
-            </div>
+            <div class="text-center"><button class="btn btn-green" type="submit" value="Send">Send<i class="fa fa-paper-plane-o ml-2" aria-hidden="true"></i></button></div>
             </form>
           </div>
           <!-- Grid column -->
